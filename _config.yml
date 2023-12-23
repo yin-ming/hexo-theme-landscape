@@ -27,11 +27,11 @@ copyright:
 # Sidebar
 sidebar: right
 widgets:
-- category
-- tag
 - tagcloud
-- archive
+- tag
 - recent_posts
+- category
+- archive
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -40,8 +40,8 @@ index_widgets:
 # - archive
 
 # Widget behavior
-archive_type: 'monthly'
-show_count: false
+archive_type: 'yearly'
+show_count: true
 recent_posts_limits: 5
 
 # Miscellaneous
